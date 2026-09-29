@@ -179,6 +179,12 @@
     animation: marquee 30s linear infinite;
   }
 
+  @media (max-width: 767px) {
+    .animate-marquee {
+      animation-duration: 13s;
+    }
+  }
+
   .timeline-glow {
     box-shadow: 0 0 40px
         color-mix(in srgb, var(--color-primary) 35%, transparent),
