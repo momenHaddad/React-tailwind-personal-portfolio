@@ -4,9 +4,25 @@ import { FaGithub } from "react-icons/fa";
 import buyInBulkImage from "../assets/Buy-in-bulk.png";
 import socialMediaImage from "../assets/social-media.jpeg";
 import flutterNoteImage from "../assets/flutter-note.png";
-import workoutBuddyImage from "../assets/workout-buddy.png";
+import CRMImage from "../assets/salesflow-crm.png";
 
 const projects = [
+  {
+    title: "SalesFlow CRM Application",
+    description:
+      "SalesFlow CRM is a full-stack CRM application under development. It is designed to help small and medium-sized businesses organize companies, contacts, leads, deals, tasks, and sales activities.",
+    image: CRMImage,
+    tags: [
+      "React",
+      "NodeJs",
+      "ExpressJS",
+      "PostgrSQL",
+      "BetterAuth",
+      "Tanstack",
+    ],
+    link: "#",
+    github: "https://github.com/momenHaddad/salesflow-crm-application",
+  },
   {
     title: "Buy in Bulk",
     description:
@@ -33,15 +49,6 @@ const projects = [
     tags: ["Flutter", "Dart"],
     link: "#",
     github: "https://github.com/momenHaddad/flutter-Note-App",
-  },
-  {
-    title: "Workout Buddy",
-    description:
-      "A mobile app helps on keep tracking your workouts with CRUD operations.",
-    image: workoutBuddyImage,
-    tags: ["React", "NodeJs", "ExpressJS", "MongoDb"],
-    link: "#",
-    github: "https://github.com/momenHaddad/Workouts-MERN-Stack-App",
   },
 ];
 
