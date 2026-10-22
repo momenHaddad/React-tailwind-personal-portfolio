@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import buyInBulkImage from "../assets/Buy-in-bulk.png";
 import socialMediaImage from "../assets/social-media.jpeg";
 import flutterNoteImage from "../assets/flutter-note.png";
-import CRMImage from "../assets/salesflow-crm.png";
+import CRMImage from "../assets/crm test.png";
 
 const projects = [
   {
