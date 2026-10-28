@@ -12,6 +12,7 @@ const skills = [
   "Java",
   "Node.js",
   "MongoDB",
+  "PostgreSQL",
   "CSS",
   "Tailwind CSS",
   "MySQL",
@@ -73,10 +74,11 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Momen Alhaddad — a software engineer specializing in
-                React, NodeJs, JavaScript and TypeScript, with greate experience
-                in styling with Tailwindcss. Had an internship in ASP.net core.
-                I build scalable, performant web applications that users love.
+                Hi, I'm Momen Alhaddad — a Software Engineer specializing in
+                React, Node.js, JavaScript, and TypeScript, with strong Tailwind
+                CSS skills and hands-on ASP.NET Core experience. I build
+                scalable, user-focused web applications and leverage AI tools to
+                boost productivity and solve problems efficiently.
               </p>
             </div>
 
@@ -87,8 +89,8 @@ export const Hero = () => {
                 Contact Me <ArrowRight className=" h-5 w-5" />
               </Button>
               <AnimatedBorderButton
-                href="/momen-cv.pdf"
-                download="momen-cv.pdf"
+                href="/Momen's CV Up.pdf"
+                download="Momen's CV Up.pdf"
               >
                 <span className="relative z-10 flex items-center justify-center gap-2">
                   <Download className="h-5 w-5" />
